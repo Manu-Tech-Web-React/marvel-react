@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Header.scss";
-import { Menu } from "semantic-ui-react";
 import { useNavigate, useLocation } from "react-router-dom";
+import { Menu } from "semantic-ui-react";
+import "./Header.scss";
 
 export default function Header() {
   const currentPath = useLocation();
