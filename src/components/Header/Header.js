@@ -6,12 +6,7 @@ import "./Header.scss";
 export default function Header() {
   const currentPath = useLocation();
   const finalCurrentPath = currentPath.pathname.replace("/", "");
- 
-  console.log(currentPath);
-  console.log(finalCurrentPath);
-
   const [activeItem, setActiveItem] = useState(finalCurrentPath);
-  console.log(activeItem);
   const navigate = useNavigate();
 
   const handleItemClick = (event, { name }) => {
