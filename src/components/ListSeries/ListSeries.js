@@ -48,7 +48,7 @@ export default function ListSeries({ listSeries }) {
               target="_blank"
               color="black"
             >
-              <Button.Content visible>More Information ...</Button.Content>
+              <Button.Content visible>More Information</Button.Content>
               <Button.Content hidden>
                 <Icon name="arrow right" />
               </Button.Content>
